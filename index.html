@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vendor/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        .nav-link{   
+             color: brown;
+             font-family: "poppins";
+             font-size: 15px;
+        } 
+    </style>
+</head>
+<body>
+    <nav class="navbar  navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+          <img src="image/Black and White Minimalist Circle Restaurant Food Logo.png" class="rounded  d-block" alt="...">
+          <a class="navbar-brand me-auto" href="#"></a>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body  p-1 mb-3 w-500  ">
+              <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link  mx-lg-2 " aria-current="page" href="">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2" href="contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2" href="">Products</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <a href="login.html" class="btn btn-secondary" tabindex="-1" role="button" aria-disabled="true">Login</a>
+        </div>
+      </nav>
+      <br><br>
+      <div>
+      </div>
+      <section class="hero">
+        <div class="hero-text">
+          <h5 data-aos="fade-right"data-aos-duration="1400">#Coffee for hot days</h5>
+          <h1 data-aos="zoom-in-left"data-aos-duration="1400" data-aos-delay="200"><b>Cold Brew</b></h1>
+          <p data-aos="fade-right"data-aos-duration="1400" data-aos-delay="300">Boots your productivity and build your mood with a glass<br> of coffee in the morning.Coffee has a stimulating effect.</p>
+          <div class="main-hero" data-aos="flip-down"data-aos-duration="1400" data-aos-delay="400">
+            <a href="#" class="btn">Order Now</a>
+            <a href="#" class="price">
+              $16.00 | <span>Regular Price</span>
+            </a>
+          </div>
+        </div>
+        <div class="hero-img" data-aos="zoom-in" data-aos-duration="1400">
+          <img src="image/bf29ed6a-09d4-4680-97cb-86545a9c4a3e-removebg-preview.png">
+        </div>
+      </section>
+
+      <script src="vendor/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset:1,
+    });
+  </script>
+
+</body>
+</html>
